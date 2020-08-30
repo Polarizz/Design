@@ -255,131 +255,72 @@ button:hover {
     width: 20%;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1380px) {
+    h1 {
+        font-size: 13em;
+    }
+
     span {
-        line-height: 1;
+        font-size: 3em;
     }
 
-    .header {
-        width: 90%;
+    .container {
+        width: 900px;
     }
 
-    .components {
-        width: 850px;
+    .container img {
+        width: 400px;
     }
 
-    .expand {
-        width: 500px;
+    .blank img {
+        width: 400px;
     }
 
-    .expand img {
-        width: 35%;
-    }
-
-    .expand .main-image {
-        width: 500px;
+    .text p {
+        width: 400px;
     }
 }
 
-@media only screen and (max-width: 1180px) {
+@media only screen and (max-width: 950px) {
     h1 {
-        font-size: 27vw;
+        font-size: 22vw;
     }
 
-    p {
-        line-height: 2;
+    .title p {
+        font-size: 3vw;
     }
 
-    .content {
-        display: flex;
-        flex-direction: column;
-        width: 85%;
-    }
-
-    .background,
-    .text {
-        display: flex;
-        width: 100%;
+    .home {
         height: 100%;
     }
 
-    .center {
+    .container {
         flex-direction: column;
+        width: 85vw;
     }
 
-    .type {
-        display: flex;
-        justify-content: center;
+    .container img {
+        width: 100%;
+        margin: 35px 0;
     }
 
-    .type span {
-        font-size: 2em;
-    }
-
-    .type p {
-        width: 90%;
-    }
-    
-    .text img {
-        width: 75%;
-    }
-
-    .content {
-        margin: 10vw 0;
-    }
-
-    .content img {
+    .text p {
         width: 100%;
     }
 
-    .main-text {
-        margin: 5vw 0vw;
-    }
-
-    .main-text p {
-        width: 100%;
-    }
-
-    .link img {
-        display: none;
+    .link {
+        margin: 35px 0;
     }
 }
 
-@media only screen and (max-width: 940px) {
-    h3 {
-        font-size: 1.5em;
+@media only screen and (max-width: 370px) {
+    h5 {
+        font-size: 4vw;
     }
 
-    span {
-        font-size: 2.7em;
-    }
-
-    .header,
-    .components {
-        width: 90%;
-    }
-
-    .sidebar {
-        display: none;
-    }
-
-    .expand,
-    .expand .main-image {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    h5,
     p {
-        font-size: 5.1vw;
+        font-size: 4vw;
     }
 
-    h3 {
-        font-size: 7.3vw;
-    }
-
-    .expand .main-image {
-        margin: 5vw 0;
-    }
 }
+
