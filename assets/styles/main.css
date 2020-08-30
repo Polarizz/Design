@@ -264,6 +264,10 @@ button:hover {
         font-size: 3em;
     }
 
+    .header {
+        width: 900px;
+    }
+
     .container {
         width: 900px;
     }
@@ -273,6 +277,10 @@ button:hover {
     }
 
     .blank img {
+        width: 330px;
+    }
+
+    .blank .text p {
         width: 400px;
     }
 
@@ -290,7 +298,15 @@ button:hover {
         font-size: 3vw;
     }
 
+    .header {
+        width: 85vw;
+    }
+
     .home {
+        height: 100%;
+    }
+
+    .blank {
         height: 100%;
     }
 
@@ -301,12 +317,22 @@ button:hover {
 
     .container img {
         width: 100%;
-        margin: 35px 0;
+        margin: 10vw 0;
+    }
+
+    .blank img {
+        width: 100%;
+        margin: 10vw 0;
     }
 
     .text p {
         width: 100%;
     }
+
+    .blank .text p {
+        width: 100%;
+    }
+
 
     .link {
         margin: 35px 0;
