@@ -294,6 +294,10 @@ button:hover {
         font-size: 22vw;
     }
 
+    p {
+        line-height: 1.5;
+    }
+
     .title p {
         font-size: 3vw;
     }
